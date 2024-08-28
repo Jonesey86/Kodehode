@@ -1,33 +1,63 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
+/* ================
+======Default Styles=====
+=========================
+
+*/
+
+* {
+  margin: 0;
+  box-sizing: border-box;
 }
-.img.container {
-    height: 180px;
-    width: 100px;
+
+.img-container {
+  height: 180px;
+  margin-top: 40px;
+}
+
+h2 {
+  font-family: "Bangers", system-ui;
 }
 
 img {
-    display: block;
-    max-width: 100%;
-    border-radius: 5px;
+  display: block;
+  max-width: 100%;
+  border-radius: 5px;
 }
 
 body {
-    min-height: 100svh:
+  min-height: 100svh;
 }
 
-main{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-.card {
-    border: solid 1px black;
-    background-color: #02021d;
-    color:#02021d;
-    display: flex;
-    max-width: 500px;
+.card-container {
+  border: solid 1px black;
+  background-color: #02021d;
+  color: #ececec;
+  display: flex;
+  max-width: 500px;
+  border-radius: 10px;
+}
 
+.details-container {
+  padding: 30px;
+}
+
+.card-details {
+  display: flex;
+  text-align: center;
+  gap: 40px;
+
+  margin-block: 20px;
+}
+
+.label,
+.occupation {
+  color: red;
 }
